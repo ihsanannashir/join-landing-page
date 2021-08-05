@@ -5,5 +5,10 @@ module.exports = {
           body: ['Poppins']
         }
       }
-    }
+    },
+    variants: {
+      extend: {
+        animation: ['motion-reduce'],
+      }
+    },
   };
